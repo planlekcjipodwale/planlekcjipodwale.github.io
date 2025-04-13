@@ -1,3 +1,23 @@
+body {
+	background-color: rgb(8, 0, 15);
+}
+
+.header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color: azure;
+	font-size: 30px;
+	font-weight: 900;
+
+	background-color: rgb(15, 0, 99);
+	width: 100%;
+	height: 5vh;
+	border-radius: 10px;
+}
+
 .kl5, .kl4, .kl3, .kl2, .kl1 {
 	display: flex;
 	justify-content: start;
@@ -8,9 +28,33 @@
 #klbox {
 	display: inline-block;
 	row-gap: 40px;
-	margin-top: 9px;
+	margin-top: 7px;
+
+	text-decoration: none;
+	color: inherit;
+	cursor: pointer; 
+
 
 	width: 9vw;
 	height: 9vw;
-	background-color: aqua;
+	background-color: rgb(114, 93, 0);
+	border-radius: 5px;
+}
+
+p {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 70px;
+	color: azure;
+
+	width: 100%;
+	height: 100%;
+}
+
+.et1, .et2, .et3, .et4, .et5 {
+	background-image: url(img/et.png);
 }
