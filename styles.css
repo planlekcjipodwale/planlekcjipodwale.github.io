@@ -1,0 +1,16 @@
+.kl5, .kl4, .kl3, .kl2, .kl1 {
+	display: flex;
+	justify-content: start;
+	width: 100%;
+	gap: 1.1vh;
+}
+	
+#klbox {
+	display: inline-block;
+	row-gap: 40px;
+	margin-top: 9px;
+
+	width: 9vw;
+	height: 9vw;
+	background-color: aqua;
+}
