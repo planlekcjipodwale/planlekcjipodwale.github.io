@@ -40,6 +40,7 @@ body {
 	background-color: #444d84;
 	border-radius: 5px;
 	box-shadow: 3px 3px #b2d5d1;
+	transition: 0.5s;
 }
 
 #klbox:hover {
