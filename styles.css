@@ -1,5 +1,5 @@
 body {
-	background-color: #305252;
+	background-color: #08001f;
 }
 
 .header {
@@ -12,7 +12,7 @@ body {
 	font-size: 30px;
 	font-weight: 900;
 
-	background-color: #77878B;
+	background-color: #444d84;
 	width: 100%;
 	height: 5vh;
 	border-radius: 10px;
@@ -37,8 +37,13 @@ body {
 
 	width: 9vw;
 	height: 9vw;
-	background-color: #77878B;
+	background-color: #444d84;
 	border-radius: 5px;
+	box-shadow: 3px 3px #b2d5d1;
+}
+
+#klbox:hover {
+	box-shadow: 5px 5px #b2d5d1;
 }
 
 p {
@@ -48,7 +53,7 @@ p {
 	margin: 0;
 
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-	font-size: 70px;
+	font-size: 8vh;
 	color: azure;
 
 	width: 100%;
